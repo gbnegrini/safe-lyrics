@@ -1,1 +1,3 @@
 /backend/testes
+*pyc
+genius_token.py
