@@ -2,8 +2,10 @@ from flask import Flask, request, jsonify
 import lyricsgenius
 from better_profanity import profanity
 from genius_token import genius_token
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/api/v1/lyrics', methods=['GET', 'POST'])
 def get_lyrics():

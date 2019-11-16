@@ -1,0 +1,23 @@
+.wrap {
+  margin: 15px;
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col {display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin: 30px;
+}
+
+.lyr {
+    align-items: center;
+    text-align: center;
+}
