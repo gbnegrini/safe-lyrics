@@ -25,24 +25,27 @@ function App() {
         if(response.data.safe){
             setSafe(
             <div className="alert alert-dismissible alert-success">
-                These lyrics are <strong>probably</strong> free of offensive language
+                These lyrics are PROBABLY free of offensive language
             </div>);
         }else{
             setSafe(
             <div className="alert alert-dismissible alert-danger">
-                These lyrics <strong>probably</strong> contain offensive language
+                These lyrics PROBABLY contain offensive language
             </div>);
         }
     }
   return (
     <React.Fragment>
-    <div>
+
+    <div className='nav'>
         <Nav brand='Safe Lyrics' homeLink='https://safe-lyrics.netlify.com/' aboutLink='#'/>
     </div>
+
     <div className='wrap'>
         <div className='row'>
-          <div className='col'>
-            <div>
+
+          <div className='col-md-6 col-lg-4 col-xl-6'>
+            <div className='form-col'>
                 <form onSubmit={handleSubmit}>
                     <fieldset>
                       <legend>Search</legend>
@@ -66,18 +69,18 @@ function App() {
                             onChange={event => setSong(event.target.value)}>
                         </input>
                       </div>
-                      <button type="submit" className="btn btn-primary">Search</button>
+                      <button type="submit" className="btn btn-primary btn-lg">Search</button>
                     </fieldset>
                   </form>
             </div>
           </div>
-          <div className='col'>
-            <div className='lyr'>
-              <h2>Lyrics</h2>
-              <div>{safe}</div>
-              <p>{lyrics}</p>
-            </div>
+
+          <div className='col-md-6 col-lg-4 col-xl-6'>
+            <h2>Lyrics</h2>
+            <div>{safe}</div>
+            <p>{lyrics}</p>
           </div>
+
         </div>
   </div>
   </React.Fragment>
