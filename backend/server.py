@@ -1,8 +1,8 @@
 from flask import Flask, request, jsonify
-import lyricsgenius
 from better_profanity import profanity
-from genius_token import genius_token
 from flask_cors import CORS
+from os import environ
+from PyLyrics import *
 
 app = Flask(__name__)
 CORS(app)
@@ -13,9 +13,7 @@ def get_lyrics():
     artist = query_params.get('artist')
     song = query_params.get('song')
 
-    genius = lyricsgenius.Genius(genius_token)
-    result = genius.search_song(song, artist)
-    lyrics = result.lyrics
+    lyrics = PyLyrics.getLyrics(artist,song)
 
     if profanity.contains_profanity(lyrics):
         is_safe=False
@@ -26,4 +24,5 @@ def get_lyrics():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(environ.get("PORT", 8000))
+    app.run(host='0.0.0.0', port=port)

@@ -1,5 +1,5 @@
 import React from 'react';
-import 'bootswatch/dist/sketchy/bootstrap.min.css';
+import '../sketchy.css';
 
 class Nav extends React.Component {
 

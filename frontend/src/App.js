@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import 'bootswatch/dist/sketchy/bootstrap.min.css';
+import './sketchy.css';
 import './App.css';
 import Nav from './components/Nav.js'
 import api from './services/api'
@@ -37,7 +37,7 @@ function App() {
   return (
     <React.Fragment>
     <div>
-        <Nav brand='Safe Lyrics' homeLink='#' aboutLink='#'/>
+        <Nav brand='Safe Lyrics' homeLink='https://safe-lyrics.netlify.com/' aboutLink='#'/>
     </div>
     <div className='wrap'>
         <div className='row'>

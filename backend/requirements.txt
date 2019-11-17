@@ -1,0 +1,7 @@
+flask
+better-profanity
+flask-cors
+gunicorn
+requests
+beautifulsoup4
+PyLyrics
