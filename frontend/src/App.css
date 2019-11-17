@@ -1,20 +1,14 @@
+.jumbo {
+  margin: 15px;
+  background-color: white;
+  padding: 10px;
+}
+
 .wrap {
   margin: 15px;
   background-color: white;
   align-items: center;
   text-align: center;
-  padding: 10px;
-}
-
-.nav {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
 }
 
 .row {
@@ -25,5 +19,5 @@
 }
 
 .form-col{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
