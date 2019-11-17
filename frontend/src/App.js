@@ -44,7 +44,7 @@ function App() {
     <div className='wrap'>
         <div className='row'>
 
-          <div className='col-md-6 col-lg-4 col-xl-6'>
+          <div className='col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
             <div className='form-col'>
                 <form onSubmit={handleSubmit}>
                     <fieldset>
@@ -75,7 +75,7 @@ function App() {
             </div>
           </div>
 
-          <div className='col-md-6 col-lg-4 col-xl-6'>
+          <div className='col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
             <h2>Lyrics</h2>
             <div>{safe}</div>
             <p>{lyrics}</p>
