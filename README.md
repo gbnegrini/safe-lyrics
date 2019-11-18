@@ -1,4 +1,4 @@
-<img src="https://lh5.googleusercontent.com/kdsRqTJ93zYX1J2LJiUa4UxvhGlPXJD_1lhvTQjScMCW_lq-BfI-afnstgpdvYlgahVSCx3SFHvMqA=w1366-h625">
+<img src="https://i.ibb.co/3mgBNhp/head.png">
 
 ## Website
 
@@ -10,16 +10,23 @@ Safe Lyrics is available at: http://safe-lyrics.netlify.com/
 
 Safe Lyrics was developed as a Progressive Web App so it can also be added to your phone's home screen.
 
-<img src="https://lh4.googleusercontent.com/-fyChlsrkdKeX5AsFVTtXvZXJnVsvK6axYdrDcvbb6c8AsRRbgr4nbDMOFqxpFfgpbcN1fh1eSl2y-v39H48=w1366-h625-rw">
+
+<img src="https://i.ibb.co/Zmq6901/Screenshot-20191117-234005-Chrome.jpg" width="270" height="480">
+
 
 ## Build with
 
-- Frontend
+- Front-end
   - [ReactJS](https://reactjs.org/): JavaScript library for building user interfaces.
   - [Boostrap](https://getbootstrap.com/): free front-end framework for faster and easier web development.
   - [Netlify](https://www.netlify.com/): all-in-one platform for automating modern web projects.
 
-- Backend
+- Back-end
   - [Flask](https://www.palletsprojects.com/p/flask/): a micro web framework written in Python.
+  - [PyLyrics](https://github.com/geekpradd/PyLyrics): a Python module to get lyrics of songs from http://lyrics.wikia.com .
   - [better-profanity](https://github.com/snguyenthanh/better_profanity): a Python library to check for profanity in strings.
   - [Heroku](https://www.heroku.com): a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+ 
+ ## License
+ [MIT](https://opensource.org/licenses/MIT)
+
