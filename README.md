@@ -1,10 +1,14 @@
 <img src="https://i.ibb.co/3mgBNhp/head.png">
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/df95da14-416e-4ea2-b4a6-90f588c93c77/deploy-status)](https://app.netlify.com/sites/safe-lyrics/deploys)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Website
 
 Safe Lyrics is available at: http://safe-lyrics.netlify.com/
 
 <img src="https://i.ibb.co/pwd7Mdj/screen.gif">
+
 
 ## Web App
 
