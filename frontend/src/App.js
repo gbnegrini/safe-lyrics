@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import './sketchy.css';
 import './App.css';
-import Nav from './components/Nav.js'
 import api from './services/api'
 
 function App() {
@@ -9,6 +8,7 @@ function App() {
     const [song, setSong] = useState('');
     const [lyrics, setLyrics] = useState('');
     const [safe, setSafe] = useState('');
+
 
     async function handleSubmit(e){
         e.preventDefault();
@@ -95,6 +95,10 @@ function App() {
                   </div>
             </div>
         </div>
+    </div>
+    <div className='foot'>
+        <div>Icons made by <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+        <div>CSS theme Sketchy by <a href='https://github.com/thomaspark/bootswatch' title='Thomas Park'>Thomas Park</a></div>
     </div>
   </React.Fragment>
   );
